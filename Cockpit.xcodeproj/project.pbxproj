@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3C13DBC1C58AE6B006DA82C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C13DBB1C58AE6B006DA82C /* AppDelegate.swift */; };
+		F3C13DBE1C58AE6C006DA82C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C13DBD1C58AE6B006DA82C /* ViewController.swift */; };
+		F3C13DC11C58AE6C006DA82C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3C13DBF1C58AE6C006DA82C /* Main.storyboard */; };
+		F3C13DC31C58AE6C006DA82C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3C13DC21C58AE6C006DA82C /* Assets.xcassets */; };
+		F3C13DC61C58AE6C006DA82C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3C13DC41C58AE6C006DA82C /* LaunchScreen.storyboard */; };
+		F3C13DD11C58AE6C006DA82C /* CockpitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C13DD01C58AE6C006DA82C /* CockpitTests.swift */; };
+		F3C13DDC1C58AE6C006DA82C /* CockpitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C13DDB1C58AE6C006DA82C /* CockpitUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3C13DCD1C58AE6C006DA82C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3C13DB01C58AE6B006DA82C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3C13DB71C58AE6B006DA82C;
+			remoteInfo = Cockpit;
+		};
+		F3C13DD81C58AE6C006DA82C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3C13DB01C58AE6B006DA82C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3C13DB71C58AE6B006DA82C;
+			remoteInfo = Cockpit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3C13DB81C58AE6B006DA82C /* Cockpit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cockpit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3C13DBB1C58AE6B006DA82C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3C13DBD1C58AE6B006DA82C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3C13DC01C58AE6C006DA82C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3C13DC21C58AE6C006DA82C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3C13DC51C58AE6C006DA82C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3C13DC71C58AE6C006DA82C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3C13DCC1C58AE6C006DA82C /* CockpitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CockpitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3C13DD01C58AE6C006DA82C /* CockpitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CockpitTests.swift; sourceTree = "<group>"; };
+		F3C13DD21C58AE6C006DA82C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3C13DD71C58AE6C006DA82C /* CockpitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CockpitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3C13DDB1C58AE6C006DA82C /* CockpitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CockpitUITests.swift; sourceTree = "<group>"; };
+		F3C13DDD1C58AE6C006DA82C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3C13DB51C58AE6B006DA82C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3C13DC91C58AE6C006DA82C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3C13DD41C58AE6C006DA82C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3C13DAF1C58AE6B006DA82C = {
+			isa = PBXGroup;
+			children = (
+				F3C13DBA1C58AE6B006DA82C /* Cockpit */,
+				F3C13DCF1C58AE6C006DA82C /* CockpitTests */,
+				F3C13DDA1C58AE6C006DA82C /* CockpitUITests */,
+				F3C13DB91C58AE6B006DA82C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3C13DB91C58AE6B006DA82C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3C13DB81C58AE6B006DA82C /* Cockpit.app */,
+				F3C13DCC1C58AE6C006DA82C /* CockpitTests.xctest */,
+				F3C13DD71C58AE6C006DA82C /* CockpitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3C13DBA1C58AE6B006DA82C /* Cockpit */ = {
+			isa = PBXGroup;
+			children = (
+				F3C13DBB1C58AE6B006DA82C /* AppDelegate.swift */,
+				F3C13DBD1C58AE6B006DA82C /* ViewController.swift */,
+				F3C13DBF1C58AE6C006DA82C /* Main.storyboard */,
+				F3C13DC21C58AE6C006DA82C /* Assets.xcassets */,
+				F3C13DC41C58AE6C006DA82C /* LaunchScreen.storyboard */,
+				F3C13DC71C58AE6C006DA82C /* Info.plist */,
+			);
+			path = Cockpit;
+			sourceTree = "<group>";
+		};
+		F3C13DCF1C58AE6C006DA82C /* CockpitTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3C13DD01C58AE6C006DA82C /* CockpitTests.swift */,
+				F3C13DD21C58AE6C006DA82C /* Info.plist */,
+			);
+			path = CockpitTests;
+			sourceTree = "<group>";
+		};
+		F3C13DDA1C58AE6C006DA82C /* CockpitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3C13DDB1C58AE6C006DA82C /* CockpitUITests.swift */,
+				F3C13DDD1C58AE6C006DA82C /* Info.plist */,
+			);
+			path = CockpitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3C13DB71C58AE6B006DA82C /* Cockpit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3C13DE01C58AE6C006DA82C /* Build configuration list for PBXNativeTarget "Cockpit" */;
+			buildPhases = (
+				F3C13DB41C58AE6B006DA82C /* Sources */,
+				F3C13DB51C58AE6B006DA82C /* Frameworks */,
+				F3C13DB61C58AE6B006DA82C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cockpit;
+			productName = Cockpit;
+			productReference = F3C13DB81C58AE6B006DA82C /* Cockpit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3C13DCB1C58AE6C006DA82C /* CockpitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3C13DE31C58AE6C006DA82C /* Build configuration list for PBXNativeTarget "CockpitTests" */;
+			buildPhases = (
+				F3C13DC81C58AE6C006DA82C /* Sources */,
+				F3C13DC91C58AE6C006DA82C /* Frameworks */,
+				F3C13DCA1C58AE6C006DA82C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3C13DCE1C58AE6C006DA82C /* PBXTargetDependency */,
+			);
+			name = CockpitTests;
+			productName = CockpitTests;
+			productReference = F3C13DCC1C58AE6C006DA82C /* CockpitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3C13DD61C58AE6C006DA82C /* CockpitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3C13DE61C58AE6C006DA82C /* Build configuration list for PBXNativeTarget "CockpitUITests" */;
+			buildPhases = (
+				F3C13DD31C58AE6C006DA82C /* Sources */,
+				F3C13DD41C58AE6C006DA82C /* Frameworks */,
+				F3C13DD51C58AE6C006DA82C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3C13DD91C58AE6C006DA82C /* PBXTargetDependency */,
+			);
+			name = CockpitUITests;
+			productName = CockpitUITests;
+			productReference = F3C13DD71C58AE6C006DA82C /* CockpitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3C13DB01C58AE6B006DA82C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Fumitoshi Ogata";
+				TargetAttributes = {
+					F3C13DB71C58AE6B006DA82C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					F3C13DCB1C58AE6C006DA82C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F3C13DB71C58AE6B006DA82C;
+					};
+					F3C13DD61C58AE6C006DA82C = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F3C13DB71C58AE6B006DA82C;
+					};
+				};
+			};
+			buildConfigurationList = F3C13DB31C58AE6B006DA82C /* Build configuration list for PBXProject "Cockpit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3C13DAF1C58AE6B006DA82C;
+			productRefGroup = F3C13DB91C58AE6B006DA82C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3C13DB71C58AE6B006DA82C /* Cockpit */,
+				F3C13DCB1C58AE6C006DA82C /* CockpitTests */,
+				F3C13DD61C58AE6C006DA82C /* CockpitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3C13DB61C58AE6B006DA82C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3C13DC61C58AE6C006DA82C /* LaunchScreen.storyboard in Resources */,
+				F3C13DC31C58AE6C006DA82C /* Assets.xcassets in Resources */,
+				F3C13DC11C58AE6C006DA82C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3C13DCA1C58AE6C006DA82C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3C13DD51C58AE6C006DA82C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3C13DB41C58AE6B006DA82C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3C13DBE1C58AE6C006DA82C /* ViewController.swift in Sources */,
+				F3C13DBC1C58AE6B006DA82C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3C13DC81C58AE6C006DA82C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3C13DD11C58AE6C006DA82C /* CockpitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3C13DD31C58AE6C006DA82C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3C13DDC1C58AE6C006DA82C /* CockpitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3C13DCE1C58AE6C006DA82C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3C13DB71C58AE6B006DA82C /* Cockpit */;
+			targetProxy = F3C13DCD1C58AE6C006DA82C /* PBXContainerItemProxy */;
+		};
+		F3C13DD91C58AE6C006DA82C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3C13DB71C58AE6B006DA82C /* Cockpit */;
+			targetProxy = F3C13DD81C58AE6C006DA82C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3C13DBF1C58AE6C006DA82C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3C13DC01C58AE6C006DA82C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3C13DC41C58AE6C006DA82C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3C13DC51C58AE6C006DA82C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3C13DDE1C58AE6C006DA82C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3C13DDF1C58AE6C006DA82C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3C13DE11C58AE6C006DA82C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cockpit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.ne.sakura.oggata.Cockpit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F3C13DE21C58AE6C006DA82C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cockpit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.ne.sakura.oggata.Cockpit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F3C13DE41C58AE6C006DA82C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CockpitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.ne.sakura.oggata.CockpitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cockpit.app/Cockpit";
+			};
+			name = Debug;
+		};
+		F3C13DE51C58AE6C006DA82C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CockpitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.ne.sakura.oggata.CockpitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cockpit.app/Cockpit";
+			};
+			name = Release;
+		};
+		F3C13DE71C58AE6C006DA82C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CockpitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.ne.sakura.oggata.CockpitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Cockpit;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F3C13DE81C58AE6C006DA82C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CockpitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.ne.sakura.oggata.CockpitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Cockpit;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3C13DB31C58AE6B006DA82C /* Build configuration list for PBXProject "Cockpit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3C13DDE1C58AE6C006DA82C /* Debug */,
+				F3C13DDF1C58AE6C006DA82C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3C13DE01C58AE6C006DA82C /* Build configuration list for PBXNativeTarget "Cockpit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3C13DE11C58AE6C006DA82C /* Debug */,
+				F3C13DE21C58AE6C006DA82C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3C13DE31C58AE6C006DA82C /* Build configuration list for PBXNativeTarget "CockpitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3C13DE41C58AE6C006DA82C /* Debug */,
+				F3C13DE51C58AE6C006DA82C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3C13DE61C58AE6C006DA82C /* Build configuration list for PBXNativeTarget "CockpitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3C13DE71C58AE6C006DA82C /* Debug */,
+				F3C13DE81C58AE6C006DA82C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3C13DB01C58AE6B006DA82C /* Project object */;
+}
